@@ -6,8 +6,8 @@
 
 @layer base {
   :root {
-    background-color: #fbf5f0;
-    --background: #f9ecdf;
+    
+    --background: #ffffff;
     --foreground: #1e1414;
     --font-sans: "IBM Plex Sans", sans-serif;
 
@@ -26,7 +26,7 @@
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: #f9ecdf;
+    --secondary: #ffffff;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --accent: 210 40% 96.1%;
