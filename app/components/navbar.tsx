@@ -15,7 +15,7 @@ export default function Navbar() {
       {showNav && <MobleNavbar />}
       <div
         className={
-          "flex items-center w-screen justify-between md:px-6 px-4 bg-secondary h-[80px]"
+          "flex items-center w-screen justify-between md:px-6 px-4 bg-secondary h-[60px]"
         }
       >
         <div className={" flex justify-between items-center w-full md:w-0"}>
