@@ -9,17 +9,17 @@ export default function Hero() {
     <div className={"h-[calc(100vh-60px)]"}>
       <div className={`grid grid-cols-2 md:grid-cols-[60%_40%] px-8 gap-x-6`}>
         <div
-          className={`rounded-3xl bg-slate-950 p-2 border-slate-950 border-2 relative `}
+          className={`rounded-3xl bg-zinc-400 p-2 border-zinc-400 border-2 relative `}
         >
           <div className={"flex  justify-between"}>
-            <div>
-              <p className={" text-5xl text-white mt-[50px]"}>
+            <div className={""}>
+              <p className={" text-5xl text-white mt-[50px] w-5"}>
                 Ebook learning skill completed
               </p>
               <p className={"text-sm text-white mt-2"}>more offer</p>
               <div
                 className={`flex items-center justify-center w-fit h-fit
-               bg-white rounded-3xl p-4 border-neutral-600
+               bg-white rounded-3xl p-4 border-white
                 border-2 bg-secondary mt-10`}
               >
                 <p className={"text-sm pr-2  "}>Our services|</p>
@@ -28,7 +28,7 @@ export default function Hero() {
             </div>
             <img
               src={ImageApp.hero2}
-              className={" h-[300px] w-[300px] absolute right-4 bottom-0"}
+              className={" h-[400px] w-[400px] absolute right-4 bottom-0"}
             />
           </div>
         </div>
