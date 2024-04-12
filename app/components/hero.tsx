@@ -33,18 +33,21 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className={`h-full bg-red-500 flex flex-col justify-between`}>
+        <div className={`h-full flex flex-col justify-between`}>
           <div
-            className={`rounded-3xl bg-slate-600 border-slate-600 border-2 p-4 mb-4`}
+            className={`rounded-3xl bg-zinc-200 border-zinc-200 border-2 p-4 mb-4 flex justify-between items-center gap-6`}
           >
-            <p>come here</p>
-            <img src={ImageApp.hero2} className={"h-[200px] w-full "} />
+            <p className={"text-3xl h-[150px] "}>See our gift cards</p>
+            <img src={ImageApp.hero3} className={"h-[200px] w-[200px]  "} />
           </div>
           <div
-            className={`rounded-3xl bg-lime-300 border-lime-300 border-2 p-4 `}
+            className={`rounded-3xl  border-2 p-4  bg-zinc-400 border-zinc-400 `}
           >
-            <img src={ImageApp.hero2} className={"h-[200px] w-full"} />
-            <p>Contact us</p>
+            <div className={"flex items-center justify-center"}>
+            <p className={"text-sm h-[150px] "}>Here are some samples you can trust us with</p>
+            <img src={ImageApp.hero1} className={"h-[200px] w-full"} />
+            </div>
+            <p className={"text-2xl h-5"}>Contact us</p>
           </div>
         </div>
       </div>
