@@ -44,7 +44,7 @@ export default function Navbar() {
             className={`md:flex md:justify-between md:gap-x-8 md:px-5 hidden
                md:pl-[30rem] items-center`}
           >
-            <Link href={""}>Products</Link>
+            <Link href={"/product"}>Products</Link>
             <Link href={""}>About</Link>
             <Link href={""}>App</Link>
             <Link href={""}>FAQ</Link>
