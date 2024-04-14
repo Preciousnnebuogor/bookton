@@ -1,18 +1,54 @@
+
 type IProduct = {
   image: string
   name: string
-  price: number
+  price: string
 }
 
 export const ProductList: IProduct[] = [
   {
-    image: "",
+    image: "bk.png",
     name: "Tailwind css",
-    price: 2,
+    price: "$5",
   },
   {
     image: "",
     name: "Tailwind css",
-    price: 3
+    price: "$10"
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: "$5",
   },
 ]

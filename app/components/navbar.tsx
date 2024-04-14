@@ -44,6 +44,7 @@ export default function Navbar() {
             className={`md:flex md:justify-between md:gap-x-8 md:px-5 hidden
                md:pl-[30rem] items-center`}
           >
+            <Link href={"/"}>Home</Link>
             <Link href={"/product"}>Products</Link>
             <Link href={""}>About</Link>
             <Link href={""}>App</Link>
@@ -72,13 +73,13 @@ function MobleNavbar() {
       transition={{ ease: "easeIn", duration: 0.5 }}
     >
       <Link
-        href={""}
+        href={"/"}
         className={"mx-3 my-2 text-sm pt-10 text-secondary-foreground"}
       >
-        Kitchen
+        Home
       </Link>
       <Link
-        href={""}
+        href={"/product"}
         className={"mx-3 my-2 text-sm text-secondary-foreground "}
       >
         Products
