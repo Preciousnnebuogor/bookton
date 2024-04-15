@@ -1,4 +1,5 @@
 import { ImageApp } from "@/lib/appImages"
+import Image from "next/image"
 
 type IProduct = {
   image: string
@@ -9,57 +10,57 @@ type IProduct = {
 
 export const ProductList: IProduct[] = [
   {
-    image: ImageApp.hero2,
+    image: ImageApp.prod1,
     name: "Tailwind css",
     price: 5,
     desc:"",
   },
   {
-    image: ImageApp.hero1,
+    image: ImageApp.prod2,
     name: "Tailwind css",
     price: 10,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod3,
     name: "Tailwind css",
-    price: 5,
+    price: 15,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod9,
     name: "Tailwind css",
-    price: 5,
+    price: 20,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod4,
     name: "Tailwind css",
-    price: 5,
+    price: 25,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod5,
     name: "Tailwind css",
-    price: 5,
+    price: 30,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod6,
     name: "Tailwind css",
-    price: 5,
+    price: 35,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod7,
     name: "Tailwind css",
-    price: 5,
+    price: 40,
     desc:"",
   },
   {
-    image: "bk.png",
+    image: ImageApp.prod8,
     name: "Tailwind css",
-    price: 5,
+    price: 45,
     desc:"",
   },
 ]
