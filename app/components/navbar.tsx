@@ -46,9 +46,7 @@ export default function Navbar() {
           >
             <Link href={"/"}>Home</Link>
             <Link href={"/product"}>Products</Link>
-            <Link href={""}>About</Link>
-            <Link href={""}>App</Link>
-            <Link href={""}>FAQ</Link>
+            <Link href={""}>Connect</Link>
           </div>
           <ThemeToggle />
         </div>
@@ -64,7 +62,7 @@ function MobleNavbar() {
         text-2xl z-[5] md:z-auto md:static 
         fixed flex flex-col 
         w-[50vw] left-0 md:w-auto 
-        md:hidden mt-[80px] h-screen 
+        md:hidden mt-[60px] h-screen 
       
            
         `}
@@ -74,7 +72,7 @@ function MobleNavbar() {
     >
       <Link
         href={"/"}
-        className={"mx-3 my-2 text-sm pt-10 text-secondary-foreground"}
+        className={"mx-3 my-2 text-sm text-secondary-foreground"}
       >
         Home
       </Link>
@@ -85,14 +83,7 @@ function MobleNavbar() {
         Products
       </Link>
       <Link href={""} className={"mx-3 my-2 text-sm text-secondary-foreground"}>
-        About
-      </Link>
-      <Link href={""} className={"mx-3 my-2 text-sm text-secondary-foreground"}>
-        App
-      </Link>
-
-      <Link href={""} className={`mx-3 my-2 text-sm text-secondary-foreground`}>
-        FAQ
+        Connect
       </Link>
     </motion.div>
   )

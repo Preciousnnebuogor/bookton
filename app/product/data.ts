@@ -1,54 +1,65 @@
+import { ImageApp } from "@/lib/appImages"
 
 type IProduct = {
   image: string
   name: string
-  price: string
+  price: number
+  desc: string
 }
 
 export const ProductList: IProduct[] = [
   {
-    image: "bk.png",
+    image: ImageApp.hero2,
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
   },
   {
-    image: "",
+    image: ImageApp.hero1,
     name: "Tailwind css",
-    price: "$10"
-  },
-  {
-    image: "bk.png",
-    name: "Tailwind css",
-    price: "$5",
+    price: 10,
+    desc:"",
   },
   {
     image: "bk.png",
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
   },
   {
     image: "bk.png",
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
   },
   {
     image: "bk.png",
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
   },
   {
     image: "bk.png",
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
   },
   {
     image: "bk.png",
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
   },
   {
     image: "bk.png",
     name: "Tailwind css",
-    price: "$5",
+    price: 5,
+    desc:"",
+  },
+  {
+    image: "bk.png",
+    name: "Tailwind css",
+    price: 5,
+    desc:"",
   },
 ]
