@@ -20,8 +20,9 @@ export default function Page({ params }: { params: { slug: string } }) {
             <p className={` text-xs mb-4`}>
               {product.desc}
             </p>
+            
           </div>
-          <p className={`text-2xl mb-10 font-bold`}>$5</p>
+          <p className={`text-2xl mb-10 font-bold`}>${product.price}</p>
           <div
             className={`flex items-center justify-center rounded-3xl 
                 border-2 bg-zinc-200 p-4 font-bold`}
