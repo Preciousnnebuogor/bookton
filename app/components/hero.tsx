@@ -9,7 +9,7 @@ export default function Hero() {
     <div className={"h-[calc(100vh-60px)]"}>
       <div className={`grid grid-cols-1 md:grid-cols-[60%_40%] px-8 gap-x-6`}>
         <div
-          className={`rounded-3xl bg-zinc-400 p-2 border-zinc-400 border-2 relative `}
+          className={`rounded-3xl bg-secondary p-2 border-secondary border-2 relative `}
         >
           <div className={"flex  justify-between"}>
             <div className={""}>
@@ -35,13 +35,13 @@ export default function Hero() {
 
         <div className={`h-full flex flex-col justify-between md:mt-0 mt-10`}>
           <div
-            className={`rounded-3xl bg-zinc-200 border-zinc-200 border-2 p-4 mb-4 flex justify-between items-center gap-6`}
+            className={`rounded-3xl bg-primary border-primary border-2 p-4 mb-4 flex justify-between items-center gap-6`}
           >
             <p className={"text-3xl h-[150px] "}>See our gift cards</p>
             <img src={ImageApp.hero3} className={"h-[200px] w-[200px]  "} />
           </div>
           <div
-            className={`rounded-3xl  border-2 p-4  bg-zinc-400 border-zinc-400 `}
+            className={`rounded-3xl  border-2 p-4  bg-secondary border-secondary `}
           >
             <div className={"flex items-center justify-center md:pl-0 pl-8 "}>
             <p className={"text-sm h-[150px] "}>Here are some samples you can trust us with</p>

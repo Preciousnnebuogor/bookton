@@ -21,7 +21,7 @@ export default function ProductPage() {
            border-primary`}
             >
               <Link href={`/product/${index}`}>
-                <img src={value.image} className={"h-[300px] w-full"} />
+                <img src={value.image} className={"h-full w-full"} />
               </Link>
               <p>{value.name}</p>
               <p> ${value.price}</p>

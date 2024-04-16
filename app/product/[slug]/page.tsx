@@ -9,7 +9,7 @@ export default function Page({ params }: { params: { slug: string } }) {
   return (
     <div>
       <div className={"grid grid-cols-1 md:grid-cols-[50%_50%] gap-x-6 px-10"}>
-        <div className={`bg-zinc-200 mb:mb-0 mb-4`}>
+        <div className={`bg-primary mb:mb-0 mb-4`}>
           <img src={product.image} />
         </div>
         <div>
@@ -25,7 +25,7 @@ export default function Page({ params }: { params: { slug: string } }) {
           <p className={`text-2xl mb-10 font-bold`}>${product.price}</p>
           <div
             className={`flex items-center justify-center rounded-3xl 
-                border-2 bg-zinc-200 p-4 font-bold`}
+                border-2 bg-primary p-4 font-bold`}
           >
             <button>Buy Now</button>
           </div>

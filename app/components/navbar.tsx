@@ -15,7 +15,7 @@ export default function Navbar() {
       {showNav && <MobleNavbar />}
       <div
         className={
-          "flex items-center w-screen justify-between md:px-6 px-4 bg-secondary h-[60px]"
+          "flex items-center w-screen justify-between md:px-6 px-4  h-[60px]"
         }
       >
         <div className={" flex justify-between items-center w-full md:w-0"}>
@@ -58,7 +58,7 @@ export default function Navbar() {
 function MobleNavbar() {
   return (
     <motion.div
-      className={` bg-secondary text-stone-950 md:justify-center  
+      className={` bg-accent  text-stone-950 md:justify-center  
         text-2xl z-[5] md:z-auto md:static 
         fixed flex flex-col 
         w-[50vw] left-0 md:w-auto 
