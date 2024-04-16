@@ -13,17 +13,17 @@ export default function Hero() {
         >
           <div className={"flex  justify-between"}>
             <div className={""}>
-              <p className={" md:text-5xl text-2xl text-white mt-[50px] w-5"}>
+              <p className={" md:text-5xl text-2xl  mt-[50px] w-5"}>
                 Ebook learning skill completed
               </p>
-              <p className={"text-sm text-white mt-2"}>more offer</p>
+              <p className={"text-sm  mt-2"}>more offer</p>
               <div
                 className={`flex items-center justify-center w-fit h-fit
-               bg-white rounded-3xl p-4 border-white
-                border-2 bg-secondary mt-10`}
+               bg-card rounded-3xl p-4 border-card text-card-foreground
+                border-2  mt-10`}
               >
-                <p className={"text-sm pr-2  "}>Our services|</p>
-                <MdOutlineShoppingCart className={"  bg-white "} />
+                <p className={" text-sm pr-2  "}>Our services|</p>
+                <MdOutlineShoppingCart className={"  bg-card text-card-foreground "} />
               </div>
             </div>
             <img
