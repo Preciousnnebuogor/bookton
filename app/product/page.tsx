@@ -7,6 +7,10 @@ import { ProductList } from "./data"
 export default function ProductPage() {
   return (
     <>
+     <div className={`flex items-center justify-center text-xl mt-6 px-4`}>
+          <p>Kindly, click on any of the images below to get more information about each of <br/>them and make
+            purchase for any of your choice.</p>
+        </div>
       <div className={" items-center flex justify-center"}>
         <div
           className={
