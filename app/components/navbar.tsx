@@ -20,8 +20,8 @@ export default function Navbar() {
       >
         <div className={" flex justify-between items-center w-full md:w-0"}>
           <div className={"flex items-center"}>
-            <img src={ImageApp.logo} className={"h-[80px] w-[80px]"} />
-            <h1>Bitcome</h1>
+            <img src={ImageApp.logo} className={"h-[90px] w-[90px]"} />
+            <h1>GiftHome</h1>
           </div>
           <span className={"text-3xl cursor-pointer mx-2 md:hidden block"}>
             {showNav ? (
