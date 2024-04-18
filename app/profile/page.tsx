@@ -33,7 +33,7 @@ export default function Profile() {
             <p className={`text-xl font-semibold mt-4`}>Number on card</p>
             <input type="number" className={`border-b-2`} />
           </div>
-          <div className={`md:flex flex-col justify-between items-center mt-4`}>
+          <div className={`md:flex justify-between items-center mt-4`}>
             <div>
               <p className={`text-xl font-semibold `}>Valid Through</p>
               <input type="number" className={`border-b-2`} />
