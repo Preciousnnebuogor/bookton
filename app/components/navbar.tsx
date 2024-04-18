@@ -46,6 +46,7 @@ export default function Navbar() {
           >
             <Link href={"/"}>Home</Link>
             <Link href={"/product"}>Products</Link>
+            <Link href={"/profile"}>Profile</Link>
             <Link href={""}>Connect</Link>
           </div>
           <ThemeToggle />
@@ -81,6 +82,13 @@ function MobleNavbar() {
         className={"mx-3 my-2 text-sm text-secondary-foreground "}
       >
         Products
+      </Link>
+
+      <Link
+        href={"/product"}
+        className={"mx-3 my-2 text-sm text-secondary-foreground "}
+      >
+        Profile
       </Link>
       <Link href={""} className={"mx-3 my-2 text-sm text-secondary-foreground"}>
         Connect
