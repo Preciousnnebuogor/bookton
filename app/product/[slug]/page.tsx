@@ -27,7 +27,7 @@ export default function Page({ params }: { params: { slug: string } }) {
             className={`flex items-center justify-center rounded-3xl 
                 border-2 bg-primary p-4 font-bold`}
           >
-            <button>Buy Now</button>
+             <a href="/ebook/1.pdf" download="1"><button>Buy Now</button></a>
           </div>
         </div>
       </div>
