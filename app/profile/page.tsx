@@ -4,25 +4,31 @@ export default function Profile() {
   return (
     <div className={``}>
       <div className={"grid grid-cols-1 md:grid-cols-[50%_50%] gap-x-8 p-8"}>
-        <div
-          className={`bg-[#03478a] rounded-md  px-6 border-[#03478a] 
-          border-2 text-white h-[250px] w-[400px] `}
-        >
-          <p
-            className={`flex justify-end items-end text-2xl font-extrabold mb-4`}
+        <div className={`md:flex md:items-center md:justify-center md:w-full md:h-full`}>
+          <div
+            className={`bg-[#03478a] rounded-md  px-6 border-[#03478a] 
+          border-2 text-white h-[250px] md:w-[400px] w-full`}
           >
-            GiftHome
-          </p>
+            <p
+              className={`flex justify-end items-end text-2xl font-extrabold mb-4`}
+            >
+              GiftHome
+            </p>
 
-          <img src={ImageApp.logo} className={`h-[80px] w-[120px] p-8 mb-0`} />
-          <p className={`flex justify-center items-center text-2xl `}>
-            123 {""} 4567 {""} 8952 {""} 7569
-          </p>
-          <div className={`flex justify-between items-center px-20 mt-4`}>
-            <p>Expiry Date </p>
-            <p>02/2026</p>
+            <img
+              src={ImageApp.logo}
+              className={`h-[80px] w-[120px] mb-0`}
+            />
+            <p className={`flex justify-center items-center text-2xl `}>
+              123 {""} 4567 {""} 8952 {""} 7569
+            </p>
+            <div className={`flex justify-between items-center px-20 mt-4`}>
+              <p>Expiry Date </p>
+              <p>02/2026</p>
+            </div>
           </div>
         </div>
+
         <div className={`px-6 mt-6`}>
           <p className={`text-2xl font-bold pb-4`}>Payment Details</p>
           <div>
@@ -48,7 +54,7 @@ export default function Profile() {
               className={`rounded-md px-8 mt-8  text-white border-[#03478a] bg-[#03478a] 
             border-4 w-full h-[50px]`}
             >
-              Submit
+              Withdraw
             </button>
           </div>
         </div>
