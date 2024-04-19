@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className={" flex justify-between items-center w-full md:w-0"}>
           <div className={"flex items-center"}>
             <img src={ImageApp.logo} className={"h-[90px] w-[90px]"} />
-            <h1>GiftHome</h1>
+            <h1>Bookton</h1>
           </div>
           <span className={"text-3xl cursor-pointer mx-2 md:hidden block"}>
             {showNav ? (
@@ -85,12 +85,15 @@ function MobleNavbar() {
       </Link>
 
       <Link
-        href={"/product"}
+        href={"/profile"}
         className={"mx-3 my-2 text-sm text-secondary-foreground "}
       >
         Profile
       </Link>
-      <Link href={""} className={"mx-3 my-2 text-sm text-secondary-foreground"}>
+      <Link
+        href={""}
+        className={"mx-3 my-2 text-sm text-secondary-foreground"}
+      >
         Connect
       </Link>
     </motion.div>

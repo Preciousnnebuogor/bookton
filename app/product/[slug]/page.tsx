@@ -26,6 +26,16 @@ export default function Page({ params }: { params: { slug: string } }) {
               <button>Buy Now</button>
             </a>
           </div>
+          <div className={`flex-col mt-4`}>
+            <p className={`flex items-center justify-center text-2xl`}>
+              Buy with Gift card, click below
+            </p>
+            <div className={`flex items-center justify-center rounded-3xl border-2 bg-primary p-4 font-bold mt-6`}>
+              <a href={""} download={""}>
+                <button>Buy Now</button>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -4,7 +4,9 @@ export default function Profile() {
   return (
     <div className={``}>
       <div className={"grid grid-cols-1 md:grid-cols-[50%_50%] gap-x-8 p-8"}>
-        <div className={`md:flex md:items-center md:justify-center md:w-full md:h-full`}>
+        <div
+          className={`md:flex md:items-center md:justify-center md:w-full md:h-full`}
+        >
           <div
             className={`bg-[#03478a] rounded-md  px-6 border-[#03478a] 
           border-2 text-white h-[250px] md:w-[400px] w-full`}
@@ -12,13 +14,10 @@ export default function Profile() {
             <p
               className={`flex justify-end items-end text-2xl font-extrabold mb-4`}
             >
-              GiftHome
+              Bookton
             </p>
 
-            <img
-              src={ImageApp.logo}
-              className={`h-[80px] w-[120px] mb-0`}
-            />
+            <img src={ImageApp.logo} className={`h-[80px] w-[120px] mb-0`} />
             <p className={`flex justify-center items-center text-2xl `}>
               123 {""} 4567 {""} 8952 {""} 7569
             </p>
@@ -39,13 +38,9 @@ export default function Profile() {
             <p className={`text-xl font-semibold mt-4`}>Number on card</p>
             <input type="number" className={`border-b-2`} />
           </div>
-          <div className={`md:flex justify-between items-center mt-4`}>
+          <div className={`flex justify-between items-center mt-4`}>
             <div>
               <p className={`text-xl font-semibold `}>Valid Through</p>
-              <input type="number" className={`border-b-2`} />
-            </div>
-            <div>
-              <p className={`text-xl font-semibold mt-4 `}>CVV</p>
               <input type="number" className={`border-b-2`} />
             </div>
           </div>
