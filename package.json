@@ -1,5 +1,5 @@
 {
-  "name": "next-template",
+  "name": "Bookton",
   "version": "0.0.2",
   "private": true,
   "scripts": {
@@ -14,9 +14,11 @@
     "format:check": "prettier --check \"**/*.{ts,tsx,mdx}\" --cache"
   },
   "dependencies": {
+    "@celo/abis": "^11.0.0",
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.4.0",
     "clsx": "^1.2.1",
+    "ethers": "^6.12.0",
     "framer-motion": "^11.0.25",
     "lucide-react": "0.105.0-alpha.4",
     "next": "^13.4.8",
@@ -26,7 +28,9 @@
     "react-icons": "^5.0.1",
     "sharp": "^0.31.3",
     "tailwind-merge": "^1.13.2",
-    "tailwindcss-animate": "^1.0.6"
+    "tailwindcss-animate": "^1.0.6",
+    "viem": "^2.9.23",
+    "wagmi": "^2.5.20"
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^3.7.2",
