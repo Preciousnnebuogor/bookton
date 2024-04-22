@@ -1,7 +1,7 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import { TailwindIndicator, ThemeProvider } from "@/comps"
-import { cn, fontSans, siteConfig } from "@/lib"
+import { cn, siteConfig } from "@/lib"
 
 import Navbar from "./components/navbar"
 import { SiteHeader } from "./home/site-header"
@@ -34,7 +34,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased",
-          fontSans.variable
+          //fontSans.variable
         )}
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
